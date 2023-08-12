@@ -8,6 +8,7 @@ import { format } from 'timeago.js';
 import Login from './components/Login';
 import Register from './components/Register';
 
+
 function App() {
   // const myStorage = window.localStorage;
   const [pins, setPins] = useState([]);
