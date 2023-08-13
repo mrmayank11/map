@@ -124,7 +124,7 @@ function App() {
         transitionDuration="1000"
         onMove={evt => setViewState(evt.viewState)}
         style={{ width: "100%", height: "100vh" }}
-        mapStyle="mapbox://styles/safak/cknndpyfq268f17p53nmpwira"
+        mapStyle="mapbox://styles/mayank-1/clc4wfwnk008514oxwb2nrdcc"
 
         onDblClick={(handleAddClick)}
       >
