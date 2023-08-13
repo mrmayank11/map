@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 import StarIcon from '@mui/icons-material/Star';
-import ReactMapGL, { Marker, Popup } from 'react-map-gl';
+import ReactMapGL, { Marker, Popup } from '!react-map-gl';// eslint-disable-line import/no-webpack-loader-syntax
+
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import axios from 'axios';
 import { format } from 'timeago.js';
