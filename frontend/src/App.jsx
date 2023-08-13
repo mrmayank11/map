@@ -9,6 +9,9 @@ import { format } from 'timeago.js';
 import Login from './components/Login';
 import Register from './components/Register';
 
+// @ts-ignore
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import mapboxgl from '!mapbox-gl';
 
 function App() {
   // const myStorage = window.localStorage;
