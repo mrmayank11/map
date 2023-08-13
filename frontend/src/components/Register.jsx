@@ -25,12 +25,12 @@ function Register({ setCurrUser, setRegister }) {
             setCurrUser(newUser.username)
             setRegister(false)
         } catch (err) {
-            if (err.response.data.keyValue.username)
-                setErr("Username already exist")
+            // if (err.response.data.keyValue.username)
+            //     setErr("Username already exist")
 
-            else setErr("Email already exist")
+            // else setErr("Email already exist")
 
-
+            console.log(err);
             setError(true);
         }
     };
