@@ -1,6 +1,6 @@
 {
   "name": "maps",
-  "proxy": "https://maps-ambc.onrender.com",
+  "proxy": "https://map-1.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
