@@ -119,7 +119,7 @@ function App() {
 
 
       <ReactMapGL
-        mapboxAccessToken={process.env.REACT_APP_MAPBOX}
+        mapboxAccessToken="pk.eyJ1IjoibWF5YW5rLTEiLCJhIjoiY2xjNHVsemd4MDRibjNuc2F6cmRldnluMCJ9.xNS8G8CWjSQY3oScpcdFdg"
         {...viewState}
         transitionDuration="1000"
         onMove={evt => setViewState(evt.viewState)}
