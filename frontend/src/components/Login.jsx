@@ -25,9 +25,10 @@ function Login({ setCurrUser, setLogin }) {
             setError(false);
             setSuccess(true);
         } catch (err) {
-            // console.log(err);
+            console.log(err);
             // console.log(err.response.data);
-            setErr(err.response.data);
+            // setErr(err.response.data);
+
             setError(true);
         }
     };
